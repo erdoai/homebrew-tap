@@ -3,7 +3,7 @@ cask "erdo" do
   name "erdo"
   desc "CLI tool for Erdo AI platform"
   homepage "https://github.com/erdoai/homebrew-tap"
-  version "0.1.25"
+  version "0.1.26"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "erdo" do
   on_macos do
     on_intel do
       url "https://github.com/erdoai/homebrew-tap/releases/download/v#{version}/erdo-cli_Darwin_x86_64.zip"
-      sha256 "b7774fecedf8ce807da5daf4e79da4e42f9cc18c76ae6c9a8f39bd434d6bde80"
+      sha256 "4ee176786c5f2780e7dc11a144e1c9c5a6beb2f5762e765ed981d0bf1a888e2d"
     end
     on_arm do
       url "https://github.com/erdoai/homebrew-tap/releases/download/v#{version}/erdo-cli_Darwin_arm64.zip"
-      sha256 "5c473d21789394652701180917b5844ce5e366de0c1ebdd02f69edf6dfc2ecec"
+      sha256 "658e970140aae05211391f0e4a61d7a32bd2ff7583a6eaa85da988f1eeea8517"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/erdoai/homebrew-tap/releases/download/v#{version}/erdo-cli_Linux_x86_64.zip"
-      sha256 "f2143daa50b9d199e6f2e3deedae51dc7bf24a6c08add46f4c5d9c55d00e5813"
+      sha256 "0b07292f3379183cf8751e530aab22bb57a4538e9dc10334599c47c182338f35"
     end
     on_arm do
       url "https://github.com/erdoai/homebrew-tap/releases/download/v#{version}/erdo-cli_Linux_arm64.zip"
-      sha256 "80f3427ed10a3d573e94d66e8b800ba0318d82509b55d5fd7d22c6451815d86e"
+      sha256 "aa75fdecc9552356a28148b5b9a039776327022c06263d8189a710628efc2bb7"
     end
   end
 
